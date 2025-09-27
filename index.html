@@ -64,7 +64,7 @@
                 <td>
                     First name:
                 </td>
-                <td>
+                <td colspan="2">
                     <input type="text" name="first_name" size="16"> Last Name: <input type="text" name="last_name" size ="16">
                 </td>
             </tr>
@@ -72,7 +72,7 @@
                 <td>
                     Address #1:
                 </td>
-                <td>
+                <td colspan="2">
                     <input type="text" name="address1" size="32">
                 </td>
             </tr>
@@ -80,7 +80,7 @@
                 <td>
                     Address #2:
                 </td>
-                <td>
+                <td colspan="2">
                     <input type="text" name="address2" size="32">
                 </td>
             </tr>
@@ -88,7 +88,7 @@
                 <td>
                     City:
                 </td>
-                <td>
+                <td colspan="2">
                     <input type="text" name="city" size="16"> State: <input type="text" name="state" size="8"> Zip: <input type="text" name="zip" size="8">
                 </td>
             </tr>
@@ -96,7 +96,7 @@
                 <td>
                     Country:
                 </td>
-                <td>
+                <td colspan="2">
                     <input type="text" name="country" size="21">
                 </td>
             </tr>
@@ -109,7 +109,7 @@
                 <td>
                     Product:
                 </td>
-                <td>
+                <td colspan="2">
                     <select><option value ="scanmaster">ScanMaster</option></select>
                 </td>
             </tr>
@@ -117,7 +117,7 @@
                 <td>
                     Date Purchased:
                 </td>
-                <td>
+                <td colspans="2">
                     <input type="date">
                 </td>
             </tr>
@@ -125,7 +125,7 @@
                 <td>
                     Serial #:
                 </td>
-                <td>
+                <td colspan="2">
                     <input type="text" name="serial_number" size="21">
                 </td>
             </tr>
@@ -133,59 +133,48 @@
                 <td>
                     Used for:
                 </td>
-                <td rowspan="3" colspan="2">
-                    <table style="width: 300px; border-spacing: 5px;">
-                        <tr>
-                            <td>
-                                <input type="radio" name="home">Home
-                            </td>
-                            <td>
-                                <input type="radio" name="educational_institution">Educational Institution
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <input type="radio" name="business">Business
-                            </td>
-                            <td>
-                                <input type="radio" name="other">Other
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <input type="radio" name="government">Government 
-                            </td>
-                        </tr>
-                    </table>
+                <td>
+                    <input type="radio" name="option">Home 
                 </td>
-            <tr><td></td></tr>
-            <tr><td></td></tr>
+                <td>
+                    <input type="radio" name="option">Educational Institution
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="radio" name="option">Business
+                </td>
+                <td>
+                    <input type="radio" name="option">Other
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="radio" name="option">Government
+                </td>
+            </tr>
             <tr>
                 <td>
                     System (check all that apply):
                 </td>
-                <td rowspan="2" colspan="2">
-                    <table style="width: 300px; border-spacing: 5px;">
-                        <tr>
-                            <td>
-                                <input type="checkbox" name="windows">Windows
-                            </td>
-                            <td>
-                                <input type="checkbox" name="unix">UNIX
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <input type="checkbox" name="macintosh">Macintosh
-                            </td>
-                            <td>
-                                <input type="checkbox" name="other">Other
-                            </td>
-                        </tr>
-                    </table>
+                <td>
+                    <input type="checkbox" name="windows">Windows
+                </td>
+                <td>
+                    <input type="checkbox" name="unix">UNIX
                 </td>
             </tr>
-            <tr><td></td></tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="checkbox" name="macintosh">Macintosh
+                </td>
+                <td>
+                    <input type="checkbox" name="other">Other
+                </td>
+            </tr>
             <tr>
                 <td colspan="3">
                     <hr>
@@ -195,7 +184,7 @@
                 <td>
                     Comments?:
                 </td>
-                <td>
+                <td colspan="3">
                     <textarea name="comments" rows="7" cols="50"></textarea>
                 </td>
             </tr>
